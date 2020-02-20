@@ -1,0 +1,37 @@
+{
+  "name": "litelementbootstrapwebpackstartupkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "webpack-dev-server": "webpack-dev-server --history-api-fallback --disable-host-check",
+    "prod": "npm run webpack -- --env.mode production --env.presets serviceworker",
+    "newprod": "npm run webpack -- --env.mode development ",
+    "dev": "npm run webpack-dev-server -- --env.mode development --port 8086"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.1",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "@bundled-es-modules/axios": "^0.18.1",
+    "@webcomponents/webcomponentsjs": "^2.3.0",
+    "bootstrap.native": "^2.0.27",
+    "lit-element": "^2.2.1",
+    "properties-reader": "^0.3.1",
+    "simple-wc-router": "^2.2.1",
+    "webpack-cli": "^3.3.9"
+  }
+}
