@@ -30,7 +30,7 @@
     "@webcomponents/webcomponentsjs": "^2.3.0",
     "bootstrap.native": "^2.0.27",
     "lit-element": "^2.2.1",
-    "properties-reader": "^0.3.1",
+    "properties-reader": "^2.2.0",
     "simple-wc-router": "^2.2.1",
     "webpack-cli": "^3.3.9"
   }
